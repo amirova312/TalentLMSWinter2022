@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/aigerim/Documents/IdeaProjects/MyProjects/Winter2022TAF">
+        <classes>
+            <class name="demoTest.DemoClass">
+                <methods>
+                    <include name="demoTest"/>
+                    <include name="demoTest2"/>
+                    <include name="demoTest1"/>
+                    <include name="demoTest2"/>
+                </methods>
+            </class>
+            <class name="demoTest.DemoClass2">
+                <methods>
+                    <include name="testSum"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                </methods>
+            </class>
+            <class name="eShopTest.Function1">
+                <methods>
+                    <include name="test11"/>
+                </methods>
+            </class>
+            <class name="eShopTest.Function2">
+                <methods>
+                    <include name="test21"/>
+                    <include name="test22"/>
+                </methods>
+            </class>
+            <class name="eShopTest.Function3">
+                <methods>
+                    <include name="test31"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
